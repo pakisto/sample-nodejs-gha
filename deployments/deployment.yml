@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-deployment
-  namespace: my-deployment
+  name: sample-nodejs-gha
+  namespace: sandbox
 spec:
   replicas: 10
   selector:
     matchLabels:
-      app: my-deployment
+      app: sample-nodejs-gha
   template:
     metadata:
       labels:
-        app: my-deployment
+        app: sample-nodejs-gha
     spec:
       containers:
-        - name: my-app-container
+        - name: sample-nodejs-gha
           image: seonchg/sample-nodejs-gha:main-5fcb9fc830dec544bfa3736404fc3180b2b76d91
           imagePullPolicy: Always
           ports:
