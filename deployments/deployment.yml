@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: sample-nodejs-gha
-          image: seonchg/sample-nodejs-gha:main-e0d8df1f8d4bd8be53689a1afb624202e7cd978e
+          image: seonchg/sample-nodejs-gha:main-33cd3ae02de2728931d593ea16bb45492ce60ae1
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
