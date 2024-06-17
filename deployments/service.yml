@@ -6,7 +6,7 @@ metadata:
   namespace: sandbox
 spec:
   selector:
-    app: Node.js
+    app: sample-nodejs-gha
   ports:
     - protocol: TCP
       port: 80
